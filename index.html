@@ -4,24 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Primera página</title>
 </head>
 <body>
     <nav id="top-nav">
-        <div class="contenedor">
+        <div class="container">
             <div class="row">
-                <ul>
+                <ul class="menu menu-top">
                     <li><a href="#">Contáctenos</a></li>
                     <li><a href="#">Quiénes somos</a></li>
                 </ul>
-                <ul>
-                    <li><a href="#"><i class="#"></i> </a> </li>
-                    <li><a href="#"><i class="#"></i> </a> </li>
-                    <li><a href="#"><i class="#"></i> </a> </li>
-
+                <ul class="menu menu-top">
+                    <li><a href="#"><i class="fab fa-twitter"></i> </a> </li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> </a> </li>
+                    <li><a href="#"><i class="fab fa-facebook"></i> </a> </li>
                 </ul>
-            </div>
-        </div>
-    </nav>
+            </div><!--row-->
+        </div> <!--container-->
+    </nav><!--top-nav-->
+    <header id="main-header">
+        <div class="conatiner">
+            <div class="row">
+                <div class="alineacion-vertical">
+                    <div id="logo">
+                        <img src="images/logo.jpg" alt="Logo de la empresa" class="img-fluid">
+                    </div>
+                </div>
+                <nav>
+                    <ul class="menu menu-main">
+                        <li><a href="#">Inicio</a></li>
+                        <li><a href="#">Fabricantes</a></li>
+                        <li><a href="#">Promociones</a></li>
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Noticias</a></li>
+                        <li><a href="#" class="alineacion-vertical"><span id="boton-inicio"><i class="far fa-user"></i> Iniciar sesión </span></a></li>
+                    </ul>
+                </nav>
+            </div><!--row-->
+        </div><!--container-->
+    </header><!--main-header-->
+    <main id="main-content">
+        <figure id="main-banner">
+            <img src="images/banner.jpg" alt="MacBook blanco en mesa" class="img-fluid">
+            <figcaption id="main-banner-leyenda">
+                <h3>Número cental de HYNKOR DEL PERÚ SAC</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio illum quibusdam, dignissimos maxime dicta dolorem pariatur eligendi veritatis neque eum earum vero dolores numquam suscipit magnam cumque quia excepturi porro.</P>
+            </figcaption>
+        </figure>
+    </main><!--main-content-->
 </body>
 </html>
